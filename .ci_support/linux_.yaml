@@ -1,0 +1,11 @@
+channel_sources:
+- ramonaoptics,conda-forge,defaults
+channel_targets:
+- ramonaoptics main
+docker_image:
+- condaforge/linux-anvil-comp7
+perl:
+- 5.26.2
+pin_run_as_build:
+  perl:
+    max_pin: x.x.x
